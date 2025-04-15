@@ -1,0 +1,18 @@
+.advantages__item {
+  padding-top: 7.5%;
+  padding-bottom: 7.5%;
+  border-bottom: 1px solid #55565a;
+}
+.advantages__item:first-child {
+  padding-top: 0;
+}
+.advantages__item:last-child {
+  border-bottom: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .advantages__text {
+    font-size: max(16px, 3vw);
+  }
+}

@@ -1,0 +1,24 @@
+.layout__content {
+  padding-left: 8.5%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #222;
+  padding-bottom: 2%;
+}
+
+@media screen and (max-width: 1248px) {
+  .layout__content {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../../img/1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .layout__content {
+    padding-left: 1%;
+  }
+}

@@ -1,0 +1,31 @@
+.footer__bottom {
+  padding-left: 11.25%;
+  padding-right: 12.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 20px;
+  color: #ccc;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 150%;
+}
+
+.footer__bottom a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer__bottom a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__bottom {
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+    font-size: max(15px, 3vw);
+  }
+}

@@ -1,0 +1,196 @@
+@import url(blocks/header/header.css);
+@import url(blocks/header/__logo/header__logo.css);
+@import url(blocks/header/__nav-button/header__nav-button.css);
+@import url(blocks/header/__container/header__container.css);
+@import url(blocks/header/__nav/header__nav.css);
+@import url(blocks/header/__burger-line/header__burger-line.css);
+@import url(blocks/header/__burger/header__burger.css);
+
+@import url(blocks/layout/layout.css);
+@import url(blocks/layout/__content/layout__content.css);
+@import url(blocks/layout/__side-image/layout__side-image.css);
+
+@import url(blocks/lead/lead.css);
+@import url(blocks/lead/__button/lead__button.css);
+@import url(blocks/lead/__list/lead__list.css);
+@import url(blocks/lead/__subtitle/lead__subtitle.css);
+@import url(blocks/lead/__title/lead__title.css);
+@import url(blocks/lead/__list-image/lead__list-image.css);
+
+@import url(blocks/advantages/advantages.css);
+@import url(blocks/advantages/__button/advantages__button.css);
+@import url(blocks/advantages/__content/advantages__content.css);
+@import url(blocks/advantages/__image/advantages__image.css);
+@import url(blocks/advantages/__inner/advantages__inner.css);
+@import url(blocks/advantages/__item-el/advantages__item-el.css);
+@import url(blocks/advantages/__item/advantages__item.css);
+@import url(blocks/advantages/__items/advantages__items.css);
+@import url(blocks/advantages/__side/advantages__side.css);
+@import url(blocks/advantages/__text/advantages__text.css);
+
+@import url(blocks/form/form.css);
+@import url(blocks/form/__body/form__body.css);
+@import url(blocks/form/__button/form__button.css);
+@import url(blocks/form/__checkbox-label/form__checkbox-label.css);
+@import url(blocks/form/__checkbox/form__checkbox.css);
+@import url(blocks/form/__container/form__container.css);
+@import url(blocks/form/__image/form__image.css);
+@import url(blocks/form/__input/form__input.css);
+@import url(blocks/form/__title/form__title.css);
+
+@import url(blocks/footer/footer.css);
+@import url(blocks/footer/__bottom/footer__bottom.css);
+@import url(blocks/footer/__center/footer__center.css);
+@import url(blocks/footer/__left/footer__left.css);
+@import url(blocks/footer/__logo/footer__logo.css);
+@import url(blocks/footer/__main/footer__main.css);
+@import url(blocks/footer/__right-button/footer__right-button.css);
+@import url(blocks/footer/__right/footer__right.css);
+@import url(blocks/footer/__social-icons/footer__social-icons.css);
+@import url(blocks/footer/__top-button/footer__top-button.css);
+@import url(blocks/footer/__top/footer__top.css);
+@import url(blocks/footer/__bottom-button/footer__bottom-button.css);
+
+@import url(blocks/root/root.css);
+
+
+.advantages__button {
+    background-color: #fff;
+    color: #282829;
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    padding: 24px 0;
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.5s;
+    margin-top: auto;
+  }
+  
+  .advantages__button:hover {
+    transform: scale(1.05);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .advantages__button {
+      padding: 16px 24px;
+    }
+  }
+
+  .advantages__content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media screen and (max-width: 1248px) {
+    .advantages__content {
+      flex: 12;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .advantages__content {
+      padding-bottom: 5%;
+    }
+  }
+  .advantages__image {
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .advantages__image {
+      margin-right: 5px;
+      height: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .advantages__image {
+      height: 25px;
+    }
+  }
+  .advantages__inner {
+    padding-top: 7.5%;
+    padding-inline: 7.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .advantages__item {
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+    border-bottom: 1px solid #55565a;
+  }
+  .advantages__item:first-child {
+    padding-top: 0;
+  }
+  .advantages__item:last-child {
+    border-bottom: none;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .advantages__text {
+      font-size: max(16px, 3vw);
+    }
+  }
+  .advantages__item-el {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .advantages__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-shrink: 0;
+  }
+  .advantages__side {
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .advantages__side img:first-child {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  @media screen and (max-width: 1248px) {
+    .advantages__side {
+      flex: 3;
+    }
+  }
+  .advantages__text {
+    margin: 0;
+    font-size: 24px;
+    line-height: 140%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .advantages__text {
+      font-size: max(16px, 3vw);
+    }
+  }
+  .advantages {
+    min-height: 65vh;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    background-color: #282829;
+    color: #fff;
+    margin: 100px 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .advantages {
+      flex-direction: column;
+    }
+  }
+      

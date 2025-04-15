@@ -1,0 +1,12 @@
+.lead {
+  padding-top: 15%;
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .lead {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+}

@@ -1,0 +1,10 @@
+.footer__social-icons {
+  display: flex;
+  gap: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__social-icons {
+    gap: 15px;
+  }
+}

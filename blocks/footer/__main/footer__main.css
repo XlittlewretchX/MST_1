@@ -1,0 +1,19 @@
+.footer__main {
+  padding-top: 2.75%;
+  padding-left: 11.25%;
+  padding-right: 12.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__main {
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

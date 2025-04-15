@@ -1,0 +1,4 @@
+.advantages__item-el {
+  display: flex;
+  align-items: flex-start;
+}

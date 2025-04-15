@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="script.js"></script>
+  <title>MST_1</title>
+</head>
+
+<body>
+  <div class="layout">
+    <div class="layout__content">
+
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">Актив</div>
+          <button class="header__burger" aria-label="Открыть меню">
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+          </button>
+          <nav class="header__nav">
+            <button class="header__nav-button"><a href="#">Главная</a></button>
+            <button class="header__nav-button"><a href="#">О нас</a></button>
+            <button class="header__nav-button"><a href="#">Контакты</a></button>
+          </nav>
+        </div>
+      </header>
+
+      <section class="lead">
+        <h1 class="lead__title">Добро пожаловать в "Актив"</h1>
+        <h2 class="lead__subtitle">Твой путь к здоровью и силе</h2>
+        <ul class="lead__list">
+          <li><img class="lead__list-image" src="img/done.svg" alt="">Современное оборудование</li>
+          <li><img class="lead__list-image" src="img/done.svg" alt="">Опытные тренеры</li>
+          <li><img class="lead__list-image" src="img/done.svg" alt="">Гибкий график тренировок</li>
+
+        </ul>
+        <button class="lead__button">Записаться</button>
+      </section>
+
+    </div>
+    <div class="layout__side-image">
+      <img src="img/1.jpeg" alt="Картинка справа" />
+    </div>
+  </div>
+
+  <section class="advantages">
+    <div class="advantages__side">
+      <img src="img/2.jpeg" alt="Левая картинка" />
+    </div>
+
+    <div class="advantages__content">
+      <div class="advantages__inner">
+        <ul class="advantages__items">
+          <li class="advantages__item">
+            <div class="advantages__item-el">
+              <img class="advantages__image" src="img/star.svg" alt="">
+              <p class="advantages__text">Индивидуальный подход к каждому клиенту </p>
+            </div>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__item-el">
+              <img class="advantages__image" src="img/star.svg" alt="">
+              <p class="advantages__text">Большой выбор групповых программ и персональных тренировок</p>
+            </div>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__item-el">
+              <img class="advantages__image" src="img/star.svg" alt="">
+              <p class="advantages__text">Уютная зона отдыха и современные сауны для восстановления сил</p>
+            </div>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__item-el">
+              <img class="advantages__image" src="img/star.svg" alt="">
+              <p class="advantages__text">Доступные цены и гибкая система абонементов
+              </p>
+            </div>
+          </li>
+        </ul>
+
+        <button class="advantages__button">Стань участником</button>
+      </div>
+    </div>
+
+    <div class="advantages__side">
+      <img src="img/3.jpeg" alt="Правая картинка" />
+    </div>
+  </section>
+
+  <section class="form">
+    <div class="form__container">
+      <h2 class="form__title">Запишитесь на бесплатное пробное занятие</h2>
+      <form class="form__body">
+        <input class="form__input" type="text" id="name" name="name" placeholder="Ваше имя" required />
+        <input class="form__input" type="email" id="email" name="email" placeholder="Ваш email" required />
+
+        <label class="form__checkbox-label">
+          <input class="form__checkbox" type="checkbox" name="agree" required />
+          Я принимаю условия политики конфиденциальности
+        </label>
+
+        <button class="form__button" type="submit">Отправить заявку</button>
+      </form>
+    </div>
+
+    <div class="form__image">
+      <img src="img/coach.png" alt="Картинка формы" />
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="footer">
+    <div class="footer__top">
+      <button class="footer__top-button">Тренировки</button>
+      <button class="footer__top-button">Питание</button>
+      <button class="footer__top-button">Результаты</button>
+    </div>
+
+    <div class="footer__main">
+      <div class="footer__left">
+        <div class="footer__logo">Актив</div>
+      </div>
+
+      <div class="footer__center">
+        <div class="footer__social-icons">
+          <a class="footer__social-link" href="#" aria-label="Instagram"><img src="img/instagram.svg"
+              alt="Instagram" /></a>
+          <a class="footer__social-link" href="#" aria-label="TikTok"><img src="img/tiktok.svg" alt="TikTok" /></a>
+          <a class="footer__social-link" href="#" aria-label="In"><img src="img/in.svg" alt="In" /></a>
+          <a class="footer__social-link" href="#" aria-label="Facebook"><img src="img/facebook.svg"
+              alt="Facebook" /></a>
+          <a class="footer__social-link" href="#" aria-label="Telegram"><img src="img/telegram.svg"
+              alt="Telegram" /></a>
+          <a class="footer__social-link" href="#" aria-label="YouTube"><img src="img/youtube.svg" alt="YouTube" /></a>
+        </div>
+      </div>
+
+      <div class="footer__right">
+        <button class="footer__right-button">Записаться</button>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="footer__bottom-button">© 2025, Фитнес Клуб "Актив". Все права защищены.</div>
+      <div class="footer__bottom-button"><a href="#">Политика конфиденциальности</a></div>
+      <div class="footer__bottom-button"><a href="#">Правила использования</a></div>
+    </div>
+  </footer>
+</body>
+
+</html>

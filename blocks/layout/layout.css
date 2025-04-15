@@ -1,0 +1,7 @@
+.layout {
+  display: flex;
+  align-items: stretch;
+  min-height: 52.5vw;
+  width: 100%;
+}
+

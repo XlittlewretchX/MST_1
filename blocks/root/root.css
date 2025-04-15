@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Prata";
+  src: url(../../Prata/Prata-Regular.ttf);
+}
+
+body {
+  font-family: "Prata", serif;
+  margin: 0;
+  background-color: #282829;
+}

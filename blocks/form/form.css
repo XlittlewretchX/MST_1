@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  background: #fafafa;
+  flex-wrap: wrap;
+  max-width: 84vw;
+  min-height: 48vh;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #fff;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

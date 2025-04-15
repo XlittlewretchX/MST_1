@@ -1,0 +1,17 @@
+.advantages__side {
+  flex: 1;
+  overflow: hidden;
+}
+
+.advantages__side img:first-child {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media screen and (max-width: 1248px) {
+  .advantages__side {
+    flex: 3;
+  }
+}

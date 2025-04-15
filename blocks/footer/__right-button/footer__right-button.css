@@ -1,0 +1,23 @@
+.footer__right-button {
+  background: #fff;
+  color: #222;
+  border: none;
+  padding: 30px 55px;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  letter-spacing: 4%;
+}
+
+.footer__right-button:hover {
+  background: #ddd;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__right-button {
+    padding: 16px 24px;
+  }
+}

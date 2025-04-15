@@ -1,0 +1,22 @@
+.footer__top-button {
+  background: none;
+  color: #ccc;
+  border: none;
+  font-size: 20px;
+  margin-inline: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.footer__top-button:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__top-button {
+    margin-inline: 5px;
+    font-size: max(15px, 2vw);
+  }
+}

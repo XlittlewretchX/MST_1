@@ -1,0 +1,24 @@
+.advantages__button {
+  background-color: #fff;
+  color: #282829;
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  padding: 24px 0;
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.5s;
+  margin-top: auto;
+}
+
+.advantages__button:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+  .advantages__button {
+    padding: 16px 24px;
+  }
+}

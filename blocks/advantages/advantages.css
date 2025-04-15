@@ -1,0 +1,15 @@
+.advantages {
+  min-height: 65vh;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  background-color: #282829;
+  color: #fff;
+  margin: 100px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .advantages {
+    flex-direction: column;
+  }
+}

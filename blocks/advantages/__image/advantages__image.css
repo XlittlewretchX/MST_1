@@ -1,0 +1,17 @@
+.advantages__image {
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .advantages__image {
+    margin-right: 5px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .advantages__image {
+    height: 25px;
+  }
+}

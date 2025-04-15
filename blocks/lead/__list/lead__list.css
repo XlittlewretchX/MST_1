@@ -1,0 +1,17 @@
+.lead__list {
+  padding: 0;
+  padding-top: 30px;
+  list-style: none;
+}
+
+.lead__list li {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .lead__list li {
+    font-size: max(16px, 5vw);
+  }
+}
